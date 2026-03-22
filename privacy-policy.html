@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MorningRoutine — Politique de confidentialité</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #3a2e22; background: #fdf9f3; line-height: 1.7; }
+    h1 { font-size: 1.8em; color: #b8895a; margin-bottom: 4px; }
+    .updated { font-size: 0.8em; color: #a0917e; letter-spacing: 1px; margin-bottom: 40px; }
+    h2 { font-size: 1.1em; color: #3a2e22; margin-top: 32px; }
+    p { color: #6b5c4e; }
+    a { color: #b8895a; }
+  </style>
+</head>
+<body>
+
+<h1>Politique de confidentialité</h1>
+<p class="updated">Dernière mise à jour : 22 mars 2026</p>
+
+<p>MorningRoutine respecte ta vie privée. Cette politique explique quelles données sont utilisées, comment, et pourquoi.</p>
+
+<h2>Données stockées localement</h2>
+<p>MorningRoutine ne possède aucun serveur et ne crée aucun compte utilisateur. Toutes tes données personnelles — prénom, humeur, journal de gratitude, intentions, priorités, habitudes, bilans du soir et de la semaine, série de jours — sont stockées exclusivement sur ton appareil via AsyncStorage. Elles ne quittent jamais ton téléphone sans ton action explicite.</p>
+
+<h2>APIs tierces appelées</h2>
+<p>Pour certains modules, l'application contacte des services externes :</p>
+<ul>
+  <li><strong>The Guardian API</strong> — récupère des articles d'actualité selon tes catégories préférées. Aucune donnée personnelle n'est transmise.</li>
+  <li><strong>Open-Meteo &amp; Nominatim (OpenStreetMap)</strong> — calcule la météo à partir de ton adresse domicile (géocodée en coordonnées GPS). L'adresse est envoyée uniquement au moment de la requête et n'est pas conservée par ces services.</li>
+  <li><strong>Aztro Horoscope API</strong> — envoie ton signe astrologique pour récupérer l'horoscope du jour. Aucune autre donnée n'est transmise.</li>
+  <li><strong>OpenRouteService</strong> — calcule l'itinéraire domicile → travail. Tes adresses sont envoyées uniquement pour le calcul d'itinéraire.</li>
+  <li><strong>Google Gemini AI (optionnel)</strong> — si une clé API est configurée, une intention personnalisée est générée à partir de ton prénom et de la date du jour. Aucune donnée sensible n'est envoyée.</li>
+</ul>
+
+<h2>Notifications</h2>
+<p>L'application peut envoyer des rappels locaux (matin et soir) si tu l'autorises. Ces notifications sont générées localement sur ton appareil via Notifee et ne passent par aucun serveur push externe. Tu peux les désactiver à tout moment dans les réglages de l'application ou dans les paramètres système de ton téléphone.</p>
+
+<h2>Aucun tracking, aucune publicité</h2>
+<p>MorningRoutine ne contient aucun SDK de publicité, aucun outil d'analytics tiers (Firebase Analytics, Amplitude, Mixpanel, etc.), aucun pixel de tracking. Aucune donnée comportementale n'est collectée ni vendue.</p>
+
+<h2>Suppression de tes données</h2>
+<p>Pour supprimer toutes tes données, il suffit de désinstaller l'application. Toutes les données stockées dans AsyncStorage sont effacées automatiquement par Android lors de la désinstallation. Tu peux également vider le stockage de l'application via Paramètres → Applications → MorningRoutine → Stockage → Vider les données.</p>
+
+<h2>Modifications de cette politique</h2>
+<p>En cas de modification significative de cette politique, la date de mise à jour ci-dessus sera modifiée. L'utilisation continue de l'application après une mise à jour constitue ton acceptation des changements.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question concernant la confidentialité : <a href="mailto:everyways.b@gmail.com">everyways.b@gmail.com</a></p>
+
+</body>
+</html>
